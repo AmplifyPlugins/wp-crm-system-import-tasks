@@ -3,7 +3,7 @@
    Plugin Name: WP-CRM System Import Tasks
    Plugin URI: https://www.wp-crm.com
    Description: Upload tasks to WP-CRM System in a CSV file.
-   Version: 2.2.3
+   Version: 2.2.4
    Author: Scott DeLuzio
    Author URI: https://www.wp-crm.com
    Text Domain: wp-crm-system-import-tasks
@@ -15,7 +15,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 }
 define( 'WPCRM_IMPORT_TASKS', __FILE__ );
-define( 'WPCRM_IMPORT_TASKS_VERSION', '2.2.3' );
+define( 'WPCRM_IMPORT_TASKS_VERSION', '2.2.4' );
 if ( ! defined( 'WPCRM_IMPORT_TASKS_DIR' ) ){
 	define( 'WPCRM_IMPORT_TASKS_DIR', plugin_dir_path( __FILE__ ) );
 }
